@@ -1,0 +1,411 @@
+/*
+Theme Name: Appnic
+Theme url:
+Author:Uivision
+Author url:
+Version:1.0.0
+Tag:bussiness
+Description:this is responsive css file for mobile and tablet layout
+
+================+/+/+/+/+/+/+/+/+/=================
+                    heigh
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (min-width:1367px) {
+    .v2_img_bg {
+        position: absolute;
+        top: -6%;
+        right: 31%;
+        z-index: -1;
+        animation: rotate_animation 15s infinite alternate;
+    }
+
+
+    .footer-area {
+        padding-top: 400px;
+    }
+
+    .welcome_right {
+        bottom: 15%;
+    }
+
+    .welcome_right.v2,
+    .welcome_right.v3,
+    .welcome_right.v4 {
+        bottom: 10%;
+    }
+    .welcome_right.v3{
+        width: 28%;
+    }
+
+    .welcome-area.v1,
+    .welcome-area.v6 {
+        display: flex;
+        height: 100%;
+    }
+
+    .welcome_right.v5 {
+        width: 44%;
+    }
+
+    .welcome_right.v5 img {
+        width: 100%;
+        height: auto;
+    }
+
+    .welcome_right.v5_3 {
+        width: 350px;
+        right: 26%;
+        transform: rotate(-28deg);
+        top: 33%;
+    }
+
+    .welcome_right.v5_2 {
+        right: 8%;
+        width: 350px;
+        transform: rotate(-29deg);
+        top: 16%;
+    }
+
+    .welcome-area.v3 .welcome-text h1,
+    .welcome-area.v4 .welcome-text h1,
+    .welcome-area.v5 .welcome-text h1,
+    .welcome-area.v6 .welcome-text h1 {
+        font-size: 70px;
+        line-height: 80px;
+        font-weight: 800;
+    }
+
+
+}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    medium
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .welcome-area {
+        position: relative;
+        padding: 150px 0;
+        background: #2063EF;
+    }
+
+    .custom_btn.cta-2 {
+        margin-top: 20px;
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    .single-pricing {
+        padding: 0;
+        box-shadow: none;
+    }
+
+    a.single-service {
+        padding: 10px;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                     tab
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (max-width: 991px) {
+
+    .welcome_right,
+    .future-mobile:after,
+    .future-mobile:before {
+        display: none;
+    }
+
+    .custom_btn.cta-2 {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .single-pricing {
+        padding: 20px 15px;
+    }
+
+    .single-pricing span {
+        font-size: 35px;
+        margin-bottom: 0;
+    }
+
+    .future-mobile {
+        margin-top: 50px;
+    }
+
+    .single_recent.mb-5 {
+        height: 165px;
+    }
+
+    .tags {
+        margin-top: 120px;
+    }
+}
+
+/*tablet layout:768px*/
+@media only screen and(min-width:768px) and (max-width:991px) {}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    Mobile
+================+/+/+/+/+/+/+/+/+/=================
+*/
+@media only screen and (max-width: 767px) {
+    h1 {
+
+        font-size: 28px;
+
+    }
+
+    /*define all text center*/
+    .heading,
+    .welcome-area {
+        text-align: center;
+    }
+
+    .single-pricing {
+        padding: 45px 70px;
+    }
+
+    .welcome-area {
+        left: 0;
+        position: relative;
+        z-index: 22;
+        padding: 50px 0;
+        background: #2063EF !important;
+
+    }
+
+    .single-pricing span {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    .heading2 h1,
+    .heading3 h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    a.tab_one,
+    a.tab_two {
+        position: relative;
+    }
+
+    img {
+        height: 80%;
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .future-mobile:before,
+    .future-mobile:after {
+        visibility: hidden;
+    }
+
+    .cta-area {
+        padding: 0;
+    }
+
+    .cta-area .heading {
+        margin-left: 0;
+    }
+
+    .custom_btn.cta-2 {
+        margin-left: 0px;
+    }
+
+    .custom_btn.cta-2 {
+        margin-top: 15px;
+    }
+
+    .cta-area .heading {
+        margin-bottom: 30px;
+    }
+
+    .footerlogo img {
+        height: 30px;
+        width: auto;
+    }
+
+    .contact_us {
+        padding: 30px;
+
+    }
+
+    .single-footer {
+        text-align: center;
+    }
+
+    .single-footer h5 {
+        margin-top: 30px;
+    }
+
+    .single_counter {
+        padding: 20px 0;
+    }
+
+    .single_counter h1 {
+        font-size: 30px;
+    }
+
+    .single-pricing ul {
+        padding: 40px 0;
+        text-align: left;
+    }
+
+    .single-pricing {
+        padding: 30px 30px;
+        margin-bottom: 30px;
+    }
+
+    .single-pricing span {
+        font-size: 50px;
+    }
+
+    .section-padding {
+        padding: 60px 0;
+    }
+
+    .welcome-text h1 {
+        font-size: 32px;
+        line-height: 40px;
+    }
+
+    .main_area {
+        padding: 40px 0;
+    }
+
+    .testimonial-area .owl-dots {
+        bottom: -15%;
+    }
+
+    .welcome-area.v3 .welcome-text h1,
+    .welcome-area.v4 .welcome-text h1,
+    .welcome-area.v5 .welcome-text h1,
+    .welcome-area.v2 .welcome-text h1 {
+        font-size: 32px;
+        line-height: 45px;
+    }
+
+    .welcome-area.v4 .welcome-text h1,
+    .welcome-area.v4 .welcome-text p {
+        color: #fff;
+    }
+
+    .app-btn:last-child {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .custome_pagination {
+        margin-bottom: 50px;
+    }
+
+    .footer_logo.v2 {
+        width: 40%;
+        margin-bottom: 20px;
+        margin: 0 auto;
+    }
+
+    .single_recent.mb-5 {
+        height: auto;
+    }
+
+    .tags {
+        margin-top: 0;
+    }
+
+    .single_blog_video-area {
+        padding: 50px 0;
+    }
+
+    .single_blog_last_img img {
+        width: 100%;
+    }
+
+    .footer-social {
+        float: left;
+    }
+
+    .comment_img img {
+        height: auto;
+        width: 100%;
+        float: left;
+        margin-right: 0;
+        border-radius: 50%;
+        margin-bottom: 30px;
+
+    }
+
+    .single_comment {
+        text-align: center;
+    }
+
+    .single_comment.ml-5 {
+        margin-left: 0 !important;
+    }
+
+    .footer-area .footer-social {
+        float: unset;
+    }
+
+    h4.single_blog_mid {
+        padding: 10px;
+        margin: 30px 0;
+        background: #e2e2e2;
+        border-radius: 10px;
+        font-size: 18px;
+    }
+
+    .single_screenshots img {
+        width: auto !important;
+    }
+
+}
+
+/*
+================+/+/+/+/+/+/+/+/+/=================
+                    wid device
+================+/+/+/+/+/+/+/+/+/=================
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container {
+        width: 480px;
+    }
+
+    .comment_img img {
+        height: auto;
+        width: 50%;
+        float: left;
+        margin-right: 20px;
+        border-radius: 50%;
+        margin-bottom: 0;
+    }
+
+    .single_comment {
+        text-align: left;
+    }
+
+
+}
+
+/*=========================================================================
+                                The end
+==========================================================================*/
